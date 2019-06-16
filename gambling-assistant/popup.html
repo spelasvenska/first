@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Assistant</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        html , body {
+            font-family:'Open Sansa', sans-serif;
+            margin:0px;
+            padding: 10px;
+        }
+
+        h1  {
+            font-size: 16px;
+        }
+
+        .alarm {
+            font-size: 22px;
+            cursor: pointer;
+            background-color: #0f70b7;
+            text-align: center;
+            border: solid 1px #78cee7;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            color:white;
+        }
+
+        .clear {
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #0f70b7;
+            text-align: center;
+            border: solid 1px #78cee7;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 5px;
+            color:white;
+        }
+
+        .logo {
+            width: 42px;
+            vertical-align:middle;
+            margin: 0px 5px 0px 0px;
+        }
+
+        .contact {
+            font: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body style="width: 296px">
+    <h1><img src="icon.png" class="logo">Assistant (1.0.0)</h1>
+    <div id="first" class="alarm" minutes="60">Activate</div>
+    <div id="second" class="alarm" minutes="120">Activate</div>
+    <div id="third" class="alarm" minutes="180">Activate</div>
+    <div id="clear" class="clear">Clear All</div>
+    <div class="contact">Need to Talk to Someone? <a href="https://www.gamcare.org.uk/">(Live Chat)</a></div>
+    <script src="popup.js"></script> 
+</body>
+</html>
